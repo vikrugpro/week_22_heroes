@@ -6,9 +6,9 @@ import './App.css';
 function App() {
     return (
         <React.Fragment>
-            {data.forEach((i) => {
+            {data.map((i) => {
                 <Card
-                    key = {i.key}  
+                    key = {i.id}  
                     name={i.name}
                     universe={i.universe}
                     alterego={i.alterego}
