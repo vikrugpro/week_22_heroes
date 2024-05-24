@@ -5,8 +5,8 @@ import './App.css';
 
 function App() {
     return (
-        <React.Fragment>
-            {data.map((i) => {
+        <div className="container">
+            {data.map((i) => (
                 <Card
                     key = {i.id}  
                     name={i.name}
@@ -17,9 +17,9 @@ function App() {
                     superpowers={i.superpowers}
                     url={i.url}
                     info={i.info}
-                />;
-            })}
-        </React.Fragment>
+                />
+            ))}
+        </div>
     );
 }
 
