@@ -5,13 +5,13 @@
     background-color: beige;
     padding: 10px;
     border-radius: 15px;
-    max-width: 450px;
+    max-width: 440px;
     min-width: 250px;
     margin-top: 1%;
 }
 
 .hero__info {
-    padding: 7px;
+    padding: 10px;
 }
 
 .hero__pic {
